@@ -59,16 +59,20 @@ sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/mas
 
 ## 致谢
 
-感谢[yiichina]网站的网友，感谢他们积累的丰富的教程资料，方便我更好的写作本文。
+感谢[yiichina](http://www.yiichina.com)网站的网友，感谢他们积累的丰富的教程资料，方便我更好的写作本文。
 另外感谢github网站的@jagregory，借用他的图书[模板](https://github.com/jagregory/abrash-black-book)。方便制作出`html`,`epub`,`mobi`格式的教程。
 
-## 联系方式
+## 意见及反馈
+
+欢迎开issue和提意见。
 
 [yiichina](http://www.yiichina.com)的bubifengyun
 
 我的[博客](http://my.oschina.net/bubifengyun) : http://my.oschina.net/bubifengyun
 
 电子邮件：bubifengyun@sina.com
+
+QQ：402229566
 
 ## 注意
 
