@@ -1,4 +1,4 @@
-FILES=src/intro.md src/about.md src/about_author.md src/ch-01.md src/ch-10.md src/appendix-a.md src/copyright.md
+FILES=src/intro.md src/about.md src/about_author.md src/ch-01.md src/ch-10.md src/ch-11.md src/ch-20.md src/appendix-a.md src/copyright.md
 
 
 
