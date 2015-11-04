@@ -16,10 +16,13 @@ epub:
 	rm -f out/book-yii2-dev-process.epub
 	pandoc -S --to epub3 -o out/book-yii2-dev-process.epub --epub-cover-image images/cover.jpg --toc --epub-chapter-level=2 --data-dir=epub --template=epub/template.html $(FILES)
 
-pdf:
+pdf: epub
 	rm -f out/book-yii2-dev-process.pdf
-	ebook-convert book-yii2-dev-process.epub book-yii2-dev-process.pdf
+	ebook-convert out/book-yii2-dev-process.epub out/book-yii2-dev-process.pdf
 
 mobi:
 	rm -f out/book-yii2-dev-process.mobi
 	kindlegen out/book-yii2-dev-process.epub -c2
+
+clean:
+	rm -rf out
