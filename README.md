@@ -4,17 +4,30 @@ yii2开发网站流程的书籍
 
 ## 写作缘由
 
-自从2015年06月开始搭建yii2的[教程](http://www.yiichina.com/tutorial/437)，接触yii2快半年，感觉需要学习的东西很多，常常忘记，可以接合做网站，把他们记下来。
+自从2015年06月开始[yii2工作环境的搭建](http://www.yiichina.com/tutorial/437)，接触yii2快半年，感觉需要学习的东西很多，常常忘记，可以结合做网站，把他们记下来。
 
 另外，[yiichina](http://www.yiichina.com)网友号召开发一个完整的yii2教程，遂想利用markdown写一本简易的书籍，把更多人的智慧集合起来。
 
 ## 文章结构
 
-初步计划分为三部分：开发前的准备、开发的流程、收集汇总部分教程。
+初步计划分为三部分。
 
-+ 开发前的准备，比如编辑器，调试器，composer安装等，以及针对不同操作系统下的环境安装搭建。
-+ 按部就班的流程，比如规划网站应该是啥样子的。一步步怎么来。
-+ 特别技术开发。
+```
+第一部分 开发环境的搭建
+	Linux下yii2工作环境的搭建/
+		编辑器和调试器的推荐
+	Windoes下yii2工作环境的搭建/
+	（待续。。。）
+第二部分 开发的一般过程
+	承接任务
+	查阅资料
+	开始构思
+	（待续。。。）
+第三部分 优秀教程选编
+	如何加入ueditor插件
+	如何加入markdown插件
+	（待续。。。）
+```
 
 ## 生成电子书 
 
@@ -23,12 +36,20 @@ yii2开发网站流程的书籍
 
 需要安装`pandoc`,`calibre`和`kindlegen`（如果不需要生成`mobi`格式文件，`kindlegen`可以不安装）软件，linux下可以如下安装。
 
-### Deepin下软件安装
+### Linux下软件安装
 
 + 安装`pandoc`,
 
+*debian系安装*
+
 ```bash
 $ sudo apt-get install pandoc
+```
+
+*redhat系安装*
+
+```bash
+$ sudo yum install pandoc
 ```
 
 + 安装`calibre`,
@@ -39,6 +60,10 @@ $ sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/m
 + 安装`kindlegen`,
 
 非常抱歉，这玩意在中国下载不了，就不说他了，有需要的可以想办法下载。
+
+### Windows下软件安装
+
+（略）
 
 ### 为什么要这些软件
 
@@ -60,20 +85,18 @@ $ sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/m
 ## 致谢
 
 感谢[yiichina](http://www.yiichina.com)网站的网友，感谢他们积累的丰富的教程资料，方便我更好的写作本文。
-另外感谢github网站的@jagregory，借用他的图书[模板](https://github.com/jagregory/abrash-black-book)。方便制作出`html`,`epub`,`mobi`格式的教程。
+另外感谢[github用户@jagregory](https://github.com/jagregory/abrash-black-book)，借用他的图书[模板](https://github.com/jagregory/abrash-black-book)。方便制作出`html`,`epub`,`mobi`格式的教程。
 
 ## 意见及反馈
 
 欢迎开issue和提意见。
 
-[yiichina](http://www.yiichina.com)的bubifengyun
-
-我的[博客](http://my.oschina.net/bubifengyun) : http://my.oschina.net/bubifengyun
-
-电子邮件：bubifengyun@sina.com
-
-QQ：402229566
+* [在github项目主页开issue](https://github.com/bubifengyun/book-yii2-dev-process/issues)
+* 访问[yiichina](http://www.yiichina.com)的bubifengyun
+* oschina[博客](http://my.oschina.net/bubifengyun) : http://my.oschina.net/bubifengyun
+* 电子邮件：bubifengyun@sina.com
+* QQ：402229566
 
 ## 注意
 
-文中的`images`,`epub`,`html`文件夹下的文件，版权属于[原作者@jagregory](https://github.com/jagregory/abrash-black-book)。
+文中的`images`,`epub`,`html`文件夹下的文件，版权属于[github用户@jagregory](https://github.com/jagregory/abrash-black-book)。
