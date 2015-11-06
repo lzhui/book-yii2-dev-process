@@ -89,14 +89,16 @@ $ sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/m
 
 ## 意见及反馈
 
-欢迎开issue和提意见。
+欢迎提意见。
 
 * [在github项目主页开issue](https://github.com/bubifengyun/book-yii2-dev-process/issues)
-* 访问[yiichina](http://www.yiichina.com)的bubifengyun
+* yiichina的[bubifengyun](http://www.yiichina.com/user/29312)
 * oschina[博客](http://my.oschina.net/bubifengyun) : http://my.oschina.net/bubifengyun
 * 电子邮件：bubifengyun@sina.com
 * QQ：402229566
 
-## 注意
+## 许可证
 
+本书属于@bubifengyun书写的部分，采用MIT许可证。
+收编的优秀教程版权属于教程的原作者，原教程另有说明的遵守教程中的说明。
 文中的`images`,`epub`,`html`文件夹下的文件，版权属于[github用户@jagregory](https://github.com/jagregory/abrash-black-book)。
