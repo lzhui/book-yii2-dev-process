@@ -14,7 +14,7 @@ html:
 epub:
 	mkdir -p out
 	rm -f out/book-yii2-dev-process.epub
-	pandoc -S --to epub3 -o out/book-yii2-dev-process.epub --epub-cover-image images/cover.jpg --toc --epub-chapter-level=2 --data-dir=epub --template=epub/template.html $(FILES)
+	pandoc -S --to epub3 -o out/book-yii2-dev-process.epub --epub-cover-image images/cover.png --toc --epub-chapter-level=2 --data-dir=epub --template=epub/template.html $(FILES)
 
 pdf: epub
 	rm -f out/book-yii2-dev-process.pdf
