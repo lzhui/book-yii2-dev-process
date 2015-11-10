@@ -99,6 +99,6 @@ $ sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/m
 
 ## 许可证
 
-本书属于@bubifengyun书写的部分，采用MIT许可证。
+本书属于@bubifengyun书写的部分，采用GPLv3许可证。
 收编的优秀教程版权属于教程的原作者，原教程另有说明的遵守教程中的说明。
 文中的`images`,`epub`,`html`文件夹下的文件，版权属于[github用户@jagregory](https://github.com/jagregory/abrash-black-book)。
