@@ -13,6 +13,8 @@ category: '计算机网站开发:
 # 附录-乙 测试平台vagrant部署
 # 制作基于centos6.7和xampp7.0.1的vagrant box
 
+已制作下载地址：http://pan.baidu.com/s/1o6Zq5zc
+
 参考网页：
 + http://thornelabs.net/2013/11/11/create-a-centos-6-vagrant-base-box-from-scratch-using-virtualbox.html
 + http://my.oschina.net/bubifengyun/blog/550066
