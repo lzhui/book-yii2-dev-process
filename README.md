@@ -4,9 +4,19 @@ yii2开发网站流程的书籍
 
 ## 写作缘由
 
-自从2015年06月开始[yii2工作环境的搭建](http://www.yiichina.com/tutorial/437)，接触yii2快半年，感觉需要学习的东西很多，常常忘记，可以结合做网站，把他们记下来。
+自从2015年06月开始[yii2工作环境的搭建](http://www.yiichina.com/tutorial/437)，
+接触yii2快半年，感觉需要学习的东西很多，常常忘记，可以结合做网站，把他们记下来。
 
-另外，[yiichina](http://www.yiichina.com)网友号召开发一个完整的yii2教程，遂想利用markdown写一本简易的书籍，把更多人的智慧集合起来。
+另外，[yiichina](http://www.yiichina.com) 网友号召开发一个完整的 yii2 教程，
+github 网友 [forecho](https://github.com/forecho) 建议采用 gitbook 制作 PDF 书籍。
+遂想利用 gitbook + markdown 写一本简易的书籍，把更多人的智慧集合起来。
+
+本书在 Linux 操作系统 [Deepin15](http://www.deepin.org/) 下编译制作并测试。
+
+## 本书读者
+
+本书适合期望使用 Yii 2.0 制作 Web 网站的开发者，读者需要具备基础的 HTML，JS 和 CSS 知识，并且了解 PHP 基本语法。
+在学习的过程中，建议读者注册一个 github.com 账号，建立一个学习笔记的代码仓库。
 
 ## 文章结构
 
@@ -14,91 +24,55 @@ yii2开发网站流程的书籍
 
 ```
 第一部分 开发环境的搭建
-	Linux下yii2工作环境的搭建/
-		编辑器和调试器的推荐
-	Windoes下yii2工作环境的搭建/
-	（待续。。。）
+	Linux 下 Yii 2.0 工作环境的搭建/
+		vim 编辑器和 xdebug 调试器
+	Windoes 下 Yii 2.0 工作环境的搭建/
+    	vscode 编辑器和 xdebug 调试器
+	网站的一些基准测试。
 第二部分 开发的一般过程
 	承接任务
 	查阅资料
 	开始构思
 	（待续。。。）
 第三部分 优秀教程选编
-	如何加入ueditor插件
-	如何加入markdown插件
+	如何加入 ueditor 插件
+	如何加入 markdown 插件
 	（待续。。。）
+附录 开发的一些辅助资料
 ```
 
-## 生成电子书 
+## 本书约定
 
-本书在Linux操作系统[Deepin2014.3](http://www.deepin.org/)下编译制作，未测试在其他操作系统下的制作方法。
-如果有其他朋友测试通过，谢谢给提供一下制作方法。
+- 中文和英文间留有空格。
+- 命令行中，当前用户操作使用 $ 开头，root 用户操作，用 # 开头。
+- 目录和文件使用斜体，比如 *./frontend/web/index.php*
+- 变量名称使用代码形式，比如 `$model`
 
-需要安装`pandoc`,`calibre`和`kindlegen`（如果不需要生成`mobi`格式文件，`kindlegen`可以不安装）软件，linux下可以如下安装。
+## 示例代码
 
-### Linux下软件安装
-
-+ 安装`pandoc`,
-
-*debian系安装*
-
-```bash
-$ sudo apt-get install pandoc
-```
-
-*redhat系安装*
-
-```bash
-$ sudo yum install pandoc
-```
-
-+ 安装`calibre`,
-
-```bash
-$ sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"
-```
-+ 安装`kindlegen`,
-
-非常抱歉，这玩意在中国下载不了，就不说他了，有需要的可以想办法下载。
-
-### Windows下软件安装
-
-（略）
-
-### 为什么要这些软件
-
-* [pandoc](http://johnmacfarlane.net/pandoc/)用于生成`html`和`epub`格式的文件。
-* [calibre](http://calibre-ebook.com/download)用于把`epub`转化为`pdf`格式的文件。
-* [kindlegen](http://www.amazon.com/gp/feature.html?docId=1000765211)用于把`epub`转化为`mobi`格式的文件。
-
-### 编译制作
-
-制作完成后，在*./out*文件夹下，生成`html`,`epub`,`pdf`,`mobi`格式的文件。
-
-+ `make html` 生成`html`文件
-+ `make epub` 生成`epub`文件
-+ `make pdf` 生成`pdf`文件
-+ `make mobi` 生成`mobi`文件
-+ `make all` 生成所有文件
-+ `make clean` 删除out文件夹
-
-## 致谢
-
-感谢[yiichina](http://www.yiichina.com)网站的网友，感谢他们积累的丰富的教程资料，方便我更好的写作本文。
-另外感谢[github用户@jagregory](https://github.com/jagregory/abrash-black-book)，借用他的图书[模板](https://github.com/jagregory/abrash-black-book)。方便制作出`html`,`epub`,`mobi`格式的教程。
+工作较忙，源码尚未发布，敬请期待。
 
 ## 意见及反馈
 
 欢迎提意见。
 
-* [在github项目主页开issue](https://github.com/bubifengyun/book-yii2-dev-process/issues)
-* yiichina的[bubifengyun](http://www.yiichina.com/user/29312)
-* oschina[博客](http://my.oschina.net/bubifengyun) : http://my.oschina.net/bubifengyun
+* 在 github 项目主页开 [issue](https://github.com/bubifengyun/book-yii2-dev-process/issues)
+* yiichina 的 [bubifengyun](http://www.yiichina.com/user/29312)
+* oschina [博客](http://my.oschina.net/bubifengyun) : http://my.oschina.net/bubifengyun
 * 电子邮件：bubifengyun@sina.com
 * QQ：402229566
 
-## 许可证
+## 版权声明
 
-本书属于@bubifengyun书写的部分，采用GPLv3许可证。
+本书版权属于 @bubifengyun。
 收编的优秀教程版权属于教程的原作者，原教程另有说明的遵守教程中的说明。
-文中的`images`,`epub`,`html`文件夹下的文件，版权属于[github用户@jagregory](https://github.com/jagregory/abrash-black-book)。
+除特别声明外，本书中的内容使用 CC BY-SA 3.0 License（创作共用 署名-相同方式共享3.0许可协议）授权，
+代码遵循BSD 3-Clause License（3项条款的BSD许可协议）。
+
+## 致谢
+
+- [yiichina](http://www.yiichina.com) 网站的网友，感谢他们积累的丰富的教程资料，方便我更好的写作本文，
+- [shi-yang](https://github.com/shi-yang/iisns/),
+- [forecho](https://github.com/forecho),
+- [魏曦](http://www.weixistyle.com)
+- 其他没有提及到的朋友，没能在这里提上您的大名，表示由衷的歉意。
