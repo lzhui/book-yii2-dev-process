@@ -74,6 +74,8 @@ github 网友 [forecho](https://github.com/forecho) 建议采用 gitbook 制作 
 ## 示例代码
 
 工作较忙，源码尚未发布，敬请期待。
+源码地址： https://github.com/bubifengyun/code-book-yii2-dev-process
+代码将会采用分章节的形式设定tag，方便查看不同的代码。
 
 ## 意见及反馈
 
