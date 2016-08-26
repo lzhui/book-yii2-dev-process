@@ -1,16 +1,7 @@
----
-title: yii2开发网站流程
-author: 不避风云 
-date: '2015-11-04'
-identifier:
-- scheme: ISBN
-  text: xxxxxxxxxx
-publisher: 不告诉你
-category: '计算机网站开发:
-  Yii2开发网站记录'
----
-
 # 感谢 
+
+感谢以下人员对本书的贡献：
 
 [@yiichina](http://www.yiichina.com/),
 [@shi-yang](https://github.com/shi-yang/iisns/),
+[@大裤衩子](http://www.yiichina.com/user/21428)

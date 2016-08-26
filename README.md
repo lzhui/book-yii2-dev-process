@@ -15,7 +15,7 @@ github 网友 [forecho](https://github.com/forecho) 建议采用 gitbook 制作 
 
 ## 本书读者
 
-本书适合期望使用 Yii 2.0 制作 Web 网站的开发者，读者需要具备基础的 HTML，JS 和 CSS 知识，并且了解 PHP 基本语法。
+本书适合期望使用 Yii 2.0 制作 Web 网站的初级开发者，读者需要具备基础的 HTML，JS 和 CSS 知识，并且了解 PHP 基本语法。
 在学习的过程中，建议读者注册一个 github.com 账号，建立一个学习笔记的代码仓库。
 
 ## 文章结构
@@ -24,14 +24,7 @@ github 网友 [forecho](https://github.com/forecho) 建议采用 gitbook 制作 
 
 ```
 第一部分 开发环境的搭建
-	Linux下yii2工作环境的搭建/
-	Windoes下yii2工作环境的搭建/
-	编辑器和调试器的推荐
-		vim及xdebug的使用
-		visual studio code
-		phpstorm
-		netbean
-	（待续。。。）
+    基础知识部分
 第二部分 开发的一般过程
 	接受任务：主要列举雇主给的要求，以及该项目的设计要求。
 	任务分析：对雇主的任务进行框架，代码层次的分析构想
@@ -49,16 +42,9 @@ github 网友 [forecho](https://github.com/forecho) 建议采用 gitbook 制作 
 
 	（待续。。。）
 第三部分 优秀教程选编
-	如何加入ueditor插件
-	如何加入markdown插件
-	如何加入百度echarts插件
-	如何加入网络摄像头
-	如何制作插件
-	如何借用某些静态网站的模板
-	（待续。。。）
+    特殊功能的加入
 附录：
 	代码规范：采用yii2核心代码的规范。
-	composer安装异常处理
 	网站性能测试
 		ab基准
 	搭建vagrant虚拟机测试平台

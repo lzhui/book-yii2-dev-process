@@ -1,15 +1,3 @@
----
-title: yii2开发网站流程
-author: 不避风云 
-date: '2015-11-29'
-identifier:
-- scheme: ISBN
-  text: xxxxxxxxxx
-publisher: 不告诉你
-category: '计算机网站开发:
-  Yii2开发网站记录'
----
-
 # 附录-丙 软件项目开发计划书
 
 参考模板：http://wenku.baidu.com/view/de7f47c25fbfc77da269b192.html          

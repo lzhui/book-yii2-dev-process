@@ -1,15 +1,3 @@
----
-title: yii2开发网站流程
-author: 不避风云 
-date: '2015-11-10'
-identifier:
-- scheme: ISBN
-  text: xxxxxxxxxx
-publisher: 不告诉你
-category: '计算机网站开发:
-  Yii2开发网站记录'
----
-
 # 附录-甲 代码规范
 
 该附录摘抄自网页：[https://github.com/shi-yang/iisns/wiki/iiSNS-%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83](https://github.com/shi-yang/iisns/wiki/iiSNS-%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83)。
