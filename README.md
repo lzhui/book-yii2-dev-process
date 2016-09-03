@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # book-yii2-dev-process
 
 yii2开发网站流程的书籍
@@ -89,3 +90,6 @@ github 网友 [forecho](https://github.com/forecho) 建议采用 gitbook 制作 
 - [forecho](https://github.com/forecho),
 - [魏曦](http://www.weixistyle.com)
 - 其他没有提及到的朋友，没能在这里提上您的大名，表示由衷的歉意。
+=======
+# book-yii2-dev-process
+>>>>>>> 5c3b7d582235c0a26cedbbde8b0489547de383a2
