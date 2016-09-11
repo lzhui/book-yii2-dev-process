@@ -40,6 +40,7 @@
  + [第四章](./src/ch-3-03.md)
  + [第五章](./src/ch-3-04.md)
  + [第六章](./src/ch-3-05.md)
+ + [第六章](./src/ch-3-06.md)
 
 * [附录](./src/part-appendix.md)
  + [附录甲](./src/appendix-a.md)
