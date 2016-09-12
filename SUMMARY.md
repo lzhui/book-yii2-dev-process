@@ -1,6 +1,6 @@
-* [关于](./README.md)
-* [引言](./src/intro.md)
-* [致谢](./src/author.md)
+* [简介](./README.md)
+* [前言](./src/intro.md)
+* [作者相关](./src/author.md)
 
 * [第一部分](./src/part-01.md)
  + [第一章](./src/ch-1-01.md)
@@ -10,6 +10,7 @@
  + [第五章](./src/ch-1-05.md)
  + [第六章](./src/ch-1-06.md)
  + [第七章](./src/ch-1-07.md)
+ + [第八章](./src/ch-1-08.md)
 
 * [第二部分](./src/part-02.md)
  + [第一章](./src/ch-2-01.md)
